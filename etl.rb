@@ -5,7 +5,7 @@ require 'pg'
 require 'mysql'
 
 
-con_my = Mysql.new('localhost','root','123456','ingrafprod')
+con_my = Mysql.new('localhost','root','123qwe','ingrafprod')
 
 result = con_my.query('SELECT * FROM in_sostenedor')
 
